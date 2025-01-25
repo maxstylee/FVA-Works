@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.back {
+    width: 100%;
+    height: 160vh;
+    background-color: #fafad2;
+    display: flex;
+}
+
+.back .box {
+    width: 70%;
+    height: 133vh;
+    background-color: white;
+    margin: auto;
+    border: 2px solid rgba(0, 0, 0, 0.121);
+    border-radius: 15px;
+   
+}
+
+.back .box .hhead {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.back .box .phead {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: small;
+}
+
+.back .box .sb1 {
+    width: 97%;
+    border: 2px solid rgba(0, 0, 0, 0.121);
+    margin: auto;
+    height: 270px;
+    margin-top: 20px;
+}
+
+.back .box .sb1 .divp1 {
+    margin-left: 20px;
+    margin-top: -12px;
+    background-color: white;
+    width: 105px;
+    text-align: center;
+    font-size: small;
+}
+
+.inp {
+    margin-top: 15px;
+    font-size: x-small;
+    margin-left: 10px;
+}
+
+.inp label {
+    font-weight: 600;
+}
+
+.inp input {
+    height: 15px;
+    width: 130px;
+}
+
+.inp input::placeholder {
+    font-size: x-small;
+}
+
+.inp .inp1-1 {
+    width: 50px;
+    margin-top: 10px;
+}
+
+.inp .inp1-1 input {
+    width: 10px;
+    max-width: 100%;
+}
+
+.inp .inp1-1 span {
+    position: relative;
+    top: -3px;
+    font-weight: 600;
+}
+
+.back .box .sb2 {
+    width: 97%;
+    border: 2px solid rgba(0, 0, 0, 0.121);
+    margin: auto;
+    height: 180px;
+    margin-top: 20px;
+}
+
+.back .box .sb2 span {
+    font-size: small;
+    font-weight: 600;
+}
+
+.back .in {
+    margin-left: 10px;
+}
+
+.back .in span {
+    position: relative;
+    top: -2.5px;
+}
+
+.back .in label {
+    font-size: small;
+    font-weight: 600;
+}
+
+.back .in .divin {
+    margin-top: 10px;
+}
+
+.back .in .divn2 {
+    margin-top: -3px;
+}
+
+.back .sb3 {
+    width: 97%;
+    border: 2px solid rgba(0, 0, 0, 0.121);
+    margin: auto;
+    height: 35px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.back .sb3 label {
+    font-size: small;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.back .sb4 {
+    width: 97%;
+    border: 2px solid rgba(0, 0, 0, 0.121);
+    margin: auto;
+    height: auto;
+    margin-top: 20px;
+}
+
+.back .sb4 .divp1 {
+    margin-left: 20px;
+    margin-top: -12px;
+    background-color: white;
+    width: 89px;
+    text-align: center;
+    font-size: small;
+}
+
+.back .sb4 .inp p {
+    font-weight: 600;
+    font-size: small;
+}
+.back .sb4 .inpp {
+    margin-bottom: 16px;
+}
+.back .sb4 .inpp1 {
+    font-size: small;
+    margin-bottom: 30px;
+}
+.back .sb4 .inpp1 p {
+    margin-right: 15px;
+}
+.back .sb4 .inpp1 input {
+    height: 23px;
+}
+.back .sb4 .inp textarea {
+    width: 285px;
+    height: 60px;
+    border: 1px solid rgba(0, 0, 0, 0.296);
+    margin-bottom: 15px;
+}
+.back .sb4 .inp textarea::placeholder{
+    font-size: x-small;
+}
+.back .sb4 .inp .fileup {
+    display: none;
+}
+.back .sb4 .inpp1 label {
+ cursor: pointer;
+ background-color: red;
+ color: white;
+ padding: 1px 4px;
+}
+.back .forb {
+    width: 140px;
+    margin: auto;
+}
+.back .forb button {
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    padding: 1px 4px;
+    border: none;
+    margin-top: 15px;
+}
+
